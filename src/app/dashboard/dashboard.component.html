@@ -1,0 +1,112 @@
+<div class="tableContainer">
+
+  <!--Search Field-->
+  <mat-form-field appearance="outline" style="width:40%;">
+    <mat-label>Search</mat-label>
+    <input matInput (keyup)="filterTable($event.target.value)" id="search">
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <br>
+
+  <table mat-table [dataSource]="dataSource" multiTemplateDataRows class="mat-elevation-z8">
+
+    <!-- CustomerID Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> CustomerID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <!--  First Name Column-->
+    <ng-container matColumnDef="firstName">
+      <th mat-header-cell *matHeaderCellDef> First Name </th>
+      <td mat-cell *matCellDef="let element">{{element.firstName}}</td>
+    </ng-container>
+
+    <!--  Last Name Column-->
+    <ng-container matColumnDef="lastName">
+      <th mat-header-cell *matHeaderCellDef>Last Name</th>
+      <td mat-cell *matCellDef="let element">{{element.lastName}}</td>
+    </ng-container>
+
+    <!--  Email Column-->
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef>Email</th>
+      <td mat-cell *matCellDef="let element">{{element.email}}</td>
+    </ng-container>
+
+    <!--  mobile number Column-->
+    <ng-container matColumnDef="mobileNumber">
+      <th mat-header-cell *matHeaderCellDef> Mobile Number </th>
+      <td mat-cell *matCellDef="let element"> {{element.mobileNumber}} </td>
+    </ng-container>
+
+    <!-- Expanded Content Column - The detail row is made up of this one column that spans across all columns -->
+    <ng-container matColumnDef="expandedDetail">
+      <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
+        <div class="dashboard-element-detail" [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+
+          <div class="dashboard-element-description" style="padding-left: 5%">
+            <!--Address Details of the Customer-->
+            <div class="addressDetails" style="text-align: center">
+              <table>
+                <tr>
+                  <td rowspan="3"><b>Address:</b></td>
+                  <td rowspan="3" width="30%">{{element.address}}</td>
+                  <td> </td>
+                  <td><b> City:</b> </td>
+                  <td>{{element.city}}</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td><b> Country: </b></td>
+                  <td> {{element.country}}</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td><b>Pincode:</b></td>
+                  <td>{{element.pinCode}}</td>
+                </tr>
+              </table>
+            </div>
+            <!--Action Buttons-->
+            <div class="actionButtons">
+
+              <!-- onclick it should route to form page with id-->
+              <!-- Make the button work-->
+              <!--Edit Button-->
+              <button mat-icon-button color="primary" matTooltip="Edit customer details"
+                matTooltipPosition="right" class="customerEditBtn">
+                <mat-icon>edit</mat-icon>
+              </button>
+
+              <!--Delete Button-->
+              <button mat-icon-button color="warn" class="customerDeleteBtn"
+                (click)="deleteCustomer(element.firstName+' '+element.lastName,element.id)" matTooltip="Delete customer"
+                matTooltipPosition="right">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let element; columns: columnsToDisplay;" class="dashboard-element-row"
+      [class.dashboard-expanded-row]="expandedElement === element"
+      (click)="expandedElement = expandedElement === element ? null : element">
+    </tr>
+    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="dashboard-detail-row"></tr>
+  </table>
+</div>
+
+<!--Add Customer Button-->
+<div class="fabBtn">
+  <!-- onclick it should route to form page with id as 0-->
+  <!-- Make the button work-->
+  <button mat-fab color="primary" id="addCustomer">
+    <mat-icon style="color:white">add</mat-icon>
+  </button>
+
+</div>

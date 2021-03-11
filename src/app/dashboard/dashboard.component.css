@@ -1,0 +1,57 @@
+.tableContainer{
+  text-align: center;
+  font-size: 16;
+}
+table {
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  tr.dashboard-detail-row {
+    height: 0;
+  }
+  
+  tr.dashboard-element-row:not(.dashboard-expanded-row):hover {
+   cursor: pointer;
+    background: #777;
+  }
+  
+  tr.dashboard-element-row:not(.dashboard-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .dashboard-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .dashboard-element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+.dashboard-element-description{
+  width:100%; 
+}
+  .dashboard-element-description-attribution {
+    opacity: 0.5;
+  }
+  
+  .fabBtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.dashboard-element-description{
+  display: flex;
+ 
+}
+.actionButtons{
+  display: flex;
+  flex-direction: column;
+}
+.addressDetails{
+  width:80%;
+}

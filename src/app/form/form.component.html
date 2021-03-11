@@ -1,0 +1,143 @@
+<!--BackButton-->
+<!--onclick it should navigate back-->
+<!--Make the button work-->
+<button mat-icon-button color="primary"  class="backButtonIcon" id="backBtn">
+    <mat-icon>arrow_back</mat-icon>
+</button>
+
+<!--Form-->
+<div class="form mat-elevation-z8">
+
+    <div class='form-title'>
+
+        <!--
+        title:
+        if new entry then display 'New Customer Entry'
+        if editing then display 'Edit Customer Detail' 
+        -->
+
+        <!-- display title here -->
+       
+
+    </div>
+
+    <form [formGroup]="customerForm">
+        <!--First Name-->
+        <mat-form-field appearance="outline">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Last Name-->
+        <mat-form-field appearance="outline">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Email-->
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Mobile Number-->
+        <mat-form-field appearance="outline">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput formControlName="mobileNumber">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Country-->
+        <mat-form-field appearance="outline">
+            <mat-label>Country</mat-label>
+            <input matInput formControlName="country">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--City-->
+        <mat-form-field appearance="outline">
+            <mat-label>City</mat-label>
+            <input matInput formControlName="city">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Address-->
+        <mat-form-field appearance="outline">
+            <mat-label>Address</mat-label>
+            <textarea matInput formControlName="address"></textarea>
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <!--Pincode-->
+        <mat-form-field appearance="outline">
+            <mat-label>Pincode</mat-label>
+            <input matInput formControlName="pinCode">
+
+            <!--
+                Display error message here
+                Use mat-error tag
+            -->
+
+        </mat-form-field>
+
+        <div class="bottom">
+
+            <div *ngIf="customerId>0; then thenFooterBlock else elseFooterBlock"></div>
+
+            <ng-template #thenFooterBlock>
+
+                <!--To be disabled when the form is not valid-->
+                <button mat-raised-button color="primary" type="submit" (click)="onSubmitEdit(0)" id="update-entry">Update</button>
+
+                <button mat-raised-button color="warn" type="submit" (click)="onSubmitEdit(1)"
+                    id='delete-entry'>Delete</button>
+            </ng-template>
+
+            <ng-template #elseFooterBlock>
+                <!--To be disabled when the form is not valid-->
+                <button mat-raised-button color="primary" type="submit" (click)="onSubmitAdd()" id="add-new-entry">Add</button>
+            </ng-template>
+
+        </div>
+    </form>
+
+</div>
+<br>
