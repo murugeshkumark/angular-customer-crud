@@ -16,7 +16,8 @@ export class CustomerService {
 
   // GET Customers from the server
   getCustomers(): Observable<Customer[]> {
-    return null;
+    return this.http.get(this.customerUrl);
+    // return null;
   }
 
   // GET Customer by id. Will 404 if id not found

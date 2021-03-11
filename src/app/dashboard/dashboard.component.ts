@@ -33,6 +33,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     // get the Customers
     console.log("00000000")
+    this.getCustomers();
   }
 
   deleteCustomer(customerName, customerId) {
@@ -46,7 +47,7 @@ export class DashboardComponent implements OnInit {
 
   getCustomers() {
     // get the Customers
-  
+    this._customerService.
   }
 
   filterTable(filterValue: string) {
