@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 76.0.3809 (Linux 0.0.0)" package="unit" timestamp="2021-03-11T02:00:07" id="0" hostname="workspaceli8x94kfmwy791jg.ws-54d9c6bd95-678r5" tests="25" errors="1" failures="25" time="5.07">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/76.0.3809.132 Safari/537.36"/>
+  </properties>
+  <testcase name="CustomerService getCustomers should use get request and should return the observable" time="0.171" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:28:27)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CustomerService Test1 getCustomer should use get request and should return Observable value" time="0.014" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:40:39)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CustomerService Test2 getCustomer should use get request and should return Observable value" time="0.012" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:53:39)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CustomerService deleteCustomer should Delete the customer and should use delete request" time="0.016" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:66:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CustomerService addNewCustomer should Add the customer and should use POST request" time="0.012" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:80:32)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="CustomerService updateCustomer should update the customer and should use PUT request" time="0.013" classname="unit.CustomerService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of null
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/customer.service.spec.ts:93:53)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:558:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:574:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent ngOnInit should call getCustomers()" time="0.501" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected spy getCustomers to have been called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:83:17)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent getCustomers should call CustomerService function getCustomers()" time="0.372" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected spy CustomerService.getCustomers to have been called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:88:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent getCustomers should assign response data to dataSource" time="0.331" classname="unit.DashboardComponent">
+    <failure type="">Uncaught TypeError: Cannot read property 'data' of undefined thrown
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent filterTable() should filter the table" time="0.283" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected $.id = 1565896455532 to equal 1565896455530.
+Expected $.firstName = 'Customerfive' to equal 'Customerthree'.
+Expected $.lastName = 'VH' to equal 'KL'.
+Expected $.email = 'customermail5@gmail.com' to equal 'customermail3@gmail.com'.
+Expected $.mobileNumber = 5555555555 to equal 3333333333.
+Expected $.address = 'five xxx,xxxx xxxx xxxx xx,xxxx-xxx' to equal 'three xxx,xxxx xxxx xxxx xx,xxxx-xxx'.
+Expected $.pinCode = 100055 to equal 100003.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:102:53)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent deleteCustomer should open the dialog" time="0.32" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected spy MatDialog.open to have been called with [ Function, Object({ data: Object({ name: 'CustomerthreeKL', id: 1565896455530 }) }) ] but it was never called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:107:30)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Should not delete when dialog returns false" time="0.278" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected spy MatDialogRef.afterClosed to have been called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:117:32)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent Should delete when dialog returns true" time="0.294" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected spy CustomerService.deleteCustomer to have been called with [ 1565896455530 ] but it was never called.
+    at &lt;Jasmine&gt;
+    at SafeSubscriber._next (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:134:46)
+    at SafeSubscriber.__tryOrUnsub (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:185:1)
+    at SafeSubscriber.next (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:124:1)
+</failure>
+  </testcase>
+  <testcase name="DashboardComponent when click add-button, it should navigate to form page" time="0.205" classname="unit.DashboardComponent">
+    <failure type="">Error: Expected '/context.html' to be '/form/0'.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/dashboard/dashboard.component.spec.ts:146:29)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:1493:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent ngOnInit should get param and call getCustomer" time="0.349" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent ngOnInit should get param and should not call getCustomer when new entry" time="0.269" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent getCustomer() should use getCustomer service function" time="0.175" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">Error: Expected spy CustomerService.getCustomer to have been called with [ 1565896455530 ] but it was never called.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:117:41)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent getCustomer service function should assign the response data to customerForm" time="0.223" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">Uncaught TypeError: Cannot read property 'value' of undefined thrown
+</failure>
+  </testcase>
+  <testcase name="FormComponent onSubmitAdd should use addNewCustomer service function" time="0.159" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'setValue' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:135:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FormComponent After adding new customer, the page should go back to dashboard" time="0.245" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'setValue' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:144:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FormComponent onSubmitEdit should use customerServiceObj service function when flag is 0" time="0.148" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'setValue' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:159:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FormComponent After updating customer details, the page should go back to dashboard" time="0.159" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'setValue' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:168:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FormComponent onSubmitEdit should open dialog when flag is 1" time="0.201" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">TypeError: Cannot read property 'setValue' of undefined
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:180:28)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)
+    at runInTestZone (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)
+    at UserContext.&lt;anonymous&gt; (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="FormComponent Should not delete when dialog returns false" time="0.147" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent Should delete when dialog returns true and should go back to dashboard" time="0.173" classname="unit.FormComponent">
+    <failure type="">Error: formGroup expects a FormGroup instance. Please pass one in.
+
+       Example:
+
+       
+    &lt;div [formGroup]="myGroup"&gt;
+      &lt;input formControlName="firstName"&gt;
+    &lt;/div&gt;
+
+    In your class:
+
+    this.myGroup = new FormGroup({
+       firstName: new FormControl()
+    });
+error properties: Object({ ngDebugContext: DebugContext_({ view: Object({ def: Object({ factory: Function, nodeFlags: 939510787, rootNodeFlags: 33554433, nodeMatchedQueries: -134480385, flags: 0, nodes: [ Object({ nodeIndex: 0, parent: null, renderParent: null, bindingIndex: 0, outputIndex: 0, checkIndex: 0, flags: 33554433, childFlags: 42713091, directChildFlags: 33734657, childMatchedQueries: 0, matchedQueries: Object({  }), matchedQueryIds: 0, references: Object({  }), ngContentIndex: null, childCount: 4, bindings: [ Object({ flags: 1, ns: '', name: 'disabled', nonMinifiedName: 'disabled', securityContext: 0, suffix: undefined }), Object({ flags: 2, ns: '', name: '_mat-animation-noopable', nonMinifiedName: '_mat-animation-noopable', securityContext: undefined, suffix: undefined }) ], bindingFlags: 3, outputs: [  ], element: Object({ ns: '', name: 'button', attrs: [ Array, Array, Array, Array ], template: null, componentProvider: Object({ nodeIndex: 1, parent: &lt;circular reference: Object&gt;, renderP ...
+    at &lt;Jasmine&gt;
+    at Function.missingFormException (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:2221:1)
+    at FormGroupDirective._checkFormPresent (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7473:1)
+    at FormGroupDirective.ngOnChanges (http://localhost:9876/_karma_webpack_/node_modules/@angular/forms/fesm2015/forms.js:7263:1)
+    at checkAndUpdateDirectiveInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31905:1)
+    at checkAndUpdateNodeInline (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44366:1)
+    at checkAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:44305:1)
+    at debugCheckAndUpdateNode (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45327:36)
+    at debugCheckDirectivesFn (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45270:1)
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/FormComponent.ngfactory.js:730:5)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:45258:1)
+</failure>
+    <failure type="">Error: Expected spy CustomerService.deleteCustomer to have been called with [ 1565896455530 ] but it was never called.
+    at &lt;Jasmine&gt;
+    at SafeSubscriber._next (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:212:46)
+    at SafeSubscriber.__tryOrUnsub (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:185:1)
+    at SafeSubscriber.next (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:124:1)
+</failure>
+    <failure type="">Error: Expected spy back to have been called.
+    at &lt;Jasmine&gt;
+    at SafeSubscriber._next (http://localhost:9876/_karma_webpack_/src/app/form/form.component.spec.ts:213:19)
+    at SafeSubscriber.__tryOrUnsub (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:185:1)
+    at SafeSubscriber.next (http://localhost:9876/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:124:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+,HeadlessChrome 76.0.3809 (Linux 0.0.0) LOG: '00000000'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
