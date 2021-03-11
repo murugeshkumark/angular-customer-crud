@@ -32,7 +32,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     // get the Customers
-   
+    console.log("00000000")
   }
 
   deleteCustomer(customerName, customerId) {
