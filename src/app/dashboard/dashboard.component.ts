@@ -33,15 +33,41 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     // get the Customers
     console.log("init")
-    this.dataSource =  new MatTableDataSource<Customer>();
-    this.getCustomers().subscribe(customers =>{
-      this.dataSource.data = customers;
-    })
+    this.dataSource = new MatTableDataSource<Customer>();
+
+    this.getCustomers();
+
+    const customers = this.customerServiceObj.getCustomers();
+
+    if (typeof customers != undefined) {
+      customers.subscribe(cs => {
+        this.dataSource.data = cs;
+      })
+    }
+
   }
 
   deleteCustomer(customerName, customerId) {
-    console.log("delete customer "+customerId);
+    console.log("delete customer " + customerId);
     // open the delete mat-dialog
+
+    let dialogRef = this.dialog.open(DeleteConsentDialogComponent, {
+      data: { name: customerName, id: customerId },
+    });
+
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`); 
+
+      if(result == true){
+        this.customerServiceObj.deleteCustomer(customerId);
+      }
+
+
+    });
+
+   
+
     // delete mat-dialog component is inside dialogBoxes/delete-consent-dialog folder
     // after deleting customer Update the table
     // send the json data to DeleteConsentDialogComponent
@@ -57,7 +83,8 @@ export class DashboardComponent implements OnInit {
 
   filterTable(filterValue: string) {
     // filter the table
-    console.log("filter customer "+filterValue);
+    console.log("filter customer " + filterValue);
+    this.dataSource.filter = filterValue;
   }
 
 }

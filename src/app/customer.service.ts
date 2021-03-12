@@ -27,8 +27,7 @@ export class CustomerService {
 
   // POST: add a new customer to the server
   addNewCustomer(newCustomer: Customer): Observable<any> {
-    const hero = { name };
-    return this.http.post<Customer>(this.customerUrl, hero, this.httpOptions);
+    return this.http.post<Customer>(this.customerUrl, newCustomer, this.httpOptions);
   }
 
   // PUT: update the customer on the server
