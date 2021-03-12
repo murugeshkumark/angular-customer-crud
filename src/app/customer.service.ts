@@ -16,31 +16,30 @@ export class CustomerService {
 
   // GET Customers from the server
   getCustomers(): Observable<Customer[]> {
-    return this.http.get(this.customerUrl);
-    // return null;
-  }
+    return this.http.get<Customer[]>(this.customerUrl);
+    }
 
   // GET Customer by id. Will 404 if id not found
   getCustomer(customerId: number): Observable<Customer> {
-
-    return null;
+    const url = `${this.customerUrl}/${customerId}`;
+    return this.http.get<Customer>(url);
   }
 
   // POST: add a new customer to the server
   addNewCustomer(newCustomer: Customer): Observable<any> {
-
-    return null;
+    const hero = { name };
+    return this.http.post<Customer>(this.customerUrl, hero, this.httpOptions);
   }
 
   // PUT: update the customer on the server
   updateCustomer(customerDetail: Customer): Observable<any> {
-
-    return null;
+    return this.http.put<Customer>(this.customerUrl, customerDetail, this.httpOptions);
   }
 
   // DELETE: delete the customer from the server
   deleteCustomer(customerId: number): Observable<any> {
-
-    return null;
+    const url = `${this.customerUrl}/${customerId}`;
+    return this.http.delete<Customer>(url, this.httpOptions);
   }
+
 }
