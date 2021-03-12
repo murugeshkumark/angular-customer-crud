@@ -5,6 +5,7 @@ import { CustomerService } from 'src/app/customer.service';
 import { DeleteConsentDialogComponent } from '../dialogBoxes/delete-consent-dialog/delete-consent-dialog.component';
 import { MatDialog } from '@angular/material/dialog';
 import { Location } from '@angular/common';
+import { Customer } from '../customer';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
@@ -17,7 +18,7 @@ export class FormComponent implements OnInit {
   location: Location
   // use customerForm as formGroup
   // refer the html file add the form controls and also add 'id' in the formGroup
-  customerForm:FormGroup;
+  customerForm: FormGroup;
 
   constructor(public dialog: MatDialog, location: Location
     , private route: ActivatedRoute, private customerServiceObj: CustomerService) {
@@ -35,16 +36,39 @@ export class FormComponent implements OnInit {
       this.customerId = parseInt(res.get('id'));
 
       if (this.customerId > 0) {
-        this.getCustomer(this.customerId);
+        let customer = this.getCustomer(this.customerId); 
+        customer.subscribe(c => {
+          this.customerForm = new FormGroup({
+            firstName: new FormControl(c.firstName),
+            lastName: new FormControl(c.lastName),
+            email: new FormControl(c.email),
+            mobileNumber: new FormControl(c.mobileNumber),
+            country: new FormControl(c.country),
+            city: new FormControl(c.city),
+            address: new FormControl(c.address),
+            pinCode: new FormControl(c.pinCode)
+          });
+        });
+      } else {
+        this.customerForm = new FormGroup({
+          firstName: new FormControl(''),
+          lastName: new FormControl(''),
+          email: new FormControl(''),
+          mobileNumber: new FormControl(''),
+          country: new FormControl(''),
+          city: new FormControl(''),
+          address: new FormControl(''),
+          pinCode: new FormControl('')
+        });
       }
     });
 
   }
 
-  getCustomer(id) {
+  getCustomer(id: any) {
     // get the customer detail
- 
-    
+    return this.customerServiceObj.getCustomer(id);
+
   }
 
   onSubmitAdd() {
@@ -64,5 +88,6 @@ export class FormComponent implements OnInit {
     // After delete or update navigate back to dashboard
 
   }
+
 
 }

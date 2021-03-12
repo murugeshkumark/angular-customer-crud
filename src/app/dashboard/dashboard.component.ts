@@ -32,7 +32,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     // get the Customers
-    console.log("00000000")
+    console.log("init")
     this.dataSource =  new MatTableDataSource<Customer>();
     this.getCustomers().subscribe(customers =>{
       this.dataSource.data = customers;
@@ -40,6 +40,7 @@ export class DashboardComponent implements OnInit {
   }
 
   deleteCustomer(customerName, customerId) {
+    console.log("delete customer "+customerId);
     // open the delete mat-dialog
     // delete mat-dialog component is inside dialogBoxes/delete-consent-dialog folder
     // after deleting customer Update the table
@@ -50,12 +51,13 @@ export class DashboardComponent implements OnInit {
 
   getCustomers() {
     // get the Customers
+    console.log("get customers");
     return this.customerServiceObj.getCustomers();
   }
 
   filterTable(filterValue: string) {
     // filter the table
-
+    console.log("filter customer "+filterValue);
   }
 
 }

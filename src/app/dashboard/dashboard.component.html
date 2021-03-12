@@ -74,7 +74,7 @@
               <!-- onclick it should route to form page with id-->
               <!-- Make the button work-->
               <!--Edit Button-->
-              <button mat-icon-button color="primary" matTooltip="Edit customer details"
+              <button mat-icon-button color="primary" matTooltip="Edit customer details" [routerLink]="['/form/'+element.id]"
                 matTooltipPosition="right" class="customerEditBtn">
                 <mat-icon>edit</mat-icon>
               </button>
